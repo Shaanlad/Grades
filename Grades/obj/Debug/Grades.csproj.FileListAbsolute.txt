@@ -1,0 +1,6 @@
+c:\users\shantanu.lad\documents\visual studio 2017\Projects\Grades\Grades\bin\Debug\Grades.pdb
+c:\users\shantanu.lad\documents\visual studio 2017\Projects\Grades\Grades\obj\Debug\Grades.csprojResolveAssemblyReference.cache
+c:\users\shantanu.lad\documents\visual studio 2017\Projects\Grades\Grades\obj\Debug\Grades.pdb
+c:\users\shantanu.lad\documents\visual studio 2017\Projects\Grades\Grades\bin\Debug\Grades.exe.config
+c:\users\shantanu.lad\documents\visual studio 2017\Projects\Grades\Grades\bin\Debug\Grades.exe
+c:\users\shantanu.lad\documents\visual studio 2017\Projects\Grades\Grades\obj\Debug\Grades.exe
