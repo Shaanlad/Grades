@@ -15,11 +15,17 @@ namespace Grades
             // synth.Speak("Hey..what's up!");
 
             GradeBook book = new GradeBook();
-            book.NameChanged = new NameChangedDelegate(OnNameChanged);
+            book.NameChanged += OnNameChanged;
+            book.NameChanged += OnNameChanged2;
+            book.NameChanged += OnNameChanged2;
+            book.NameChanged -= OnNameChanged2;
+
             book.AddGrade(91);
             book.AddGrade(85.5f);
             book.AddGrade(75);
-            book.Name = "Lad's Grade";
+
+            book.Name = "Lad's Grade Book";
+            book.Name = "Lad's Book";
 
             GradeStatistics stats = book.ComputeStatistics();
 
@@ -34,6 +40,11 @@ namespace Grades
         static void OnNameChanged(string existingName, string newName)
         {
             Console.WriteLine($"Name changing from {existingName} to {newName}");
+        }
+
+        static void OnNameChanged2(string existingName, string newName)
+        {
+            Console.WriteLine("* * *");
         }
 
         static void WriteResult(string description, int result)
